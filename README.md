@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+```javascript
+"Mostrar en consola":{
+		"prefix": "log",
+		"body": ["console.log(`\\x1b[1;37;44;3;4m>> LOG ${new Date().toLocaleTimeString()} \\x1b[0m \\x1b[1;32m",
+		">>\\x1b[33m ${1:Escribe aquí tu mensaje} \\x1b[32m<<`);"],
+		"description": "Muestra en la consola un LOG con la hora"
+	}
+```
